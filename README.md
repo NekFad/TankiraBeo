@@ -2,8 +2,6 @@
    <h2 align="center">Aurora Launcher</h2>
 </div>
 
-> **Aurora Launcher là một launcher được thiết kế riêng cho guild Drug [RGVN]**<br>
-
 <p align="center">
 <a href="https://github.com/Tankira/P-AuroraLauncher/issues">Báo cáo lỗi</a>
 ·
