@@ -2,8 +2,6 @@
    <h2 align="center">Aurora Launcher</h2>
 </div>
 
-> **Aurora Launcher là một launcher được thiết kế riêng cho guild Drug [RGVN]**<br>
-
 <p align="center">
 <a href="https://github.com/Tankira/P-AuroraLauncher/issues">Báo cáo lỗi</a>
 ·
@@ -28,7 +26,7 @@ Aurora Launcher có thể chạy trên tất cả các PC chạy Windows 7 trở
 Aurora Launcher yêu cầu PC của bạn phải được cài bộ Visual C++ từ 2008 -> 2019 trở lên
    
 ## Warning | Lưu ý
-  * Aurora Launcher không có tính năng check file + download GTA (RGAME) nếu thiếu hoặc không có GTA trong máy.
+  * Aurora Launcher không có tính năng check file + download GTA nếu thiếu file hoặc không có GTA trong máy. Nên là ông nào không có file game gốc thì [bấm vào đây](https://drive.google.com/file/d/11h1g5Z9WDp8BDC2gj1d99pngTr7ruEiU/view) để tải file game gốc, r giải nén tại thư mục Game nhé.
   * Aurora Launcher chỉ check những file thuộc SA:MP và mod
 
 ## License | Giấy phép
