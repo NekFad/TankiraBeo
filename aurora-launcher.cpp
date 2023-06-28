@@ -54,16 +54,16 @@ int main()
 
     cout << endl;
     cout << "   ==================================================================================================================" << endl;
-    cout << "    Xin chào! " << username << endl;
-    cout << "    Thư mục Launcher: " << NPath << endl;
-    cout << "    Thư mục game: " << GameLoc << endl;
+    cout << "    Xin chào Mày! " << username << endl;
+    cout << "    Thư mục Launcher rách: " << NPath << endl;
+    cout << "    Thư mục game xịn: " << GameLoc << endl;
     cout << "   ==================================================================================================================" << endl;
     cout << endl;
-    cout << "    [1] Bắt đầu chơi" << endl;
+    cout << "    [1] Lẹt gâu bây bi, chơi thôi nào" << endl;
     cout << "    [2] Chuyển về Launcher khác" << endl;
-    cout << "    [X] Thoát" << endl;
+    cout << "    [X] Nhót" << endl;
     cout << endl;
-    cout << "                                              Nhập lựa chọn của bạn > ";
+    cout << "                                              Nhập lựa chọn của mày > ";
     cin >> LuaChon;
 
     if (LuaChon == "1")
@@ -97,13 +97,13 @@ int PlayGame()
     string IMPLoc = GameLoc + IMPFile; // ---------------- Location file can thiet
     string username;
 
-    cout << "Đang kiểm tra các file cần thiết, vui lòng chờ!" << endl;
+    cout << "Đang kiểm tra các file cần thiết, vui lòng chờ! Trong lúc chờ hãy đưa ảnh mẹ mày cho tao xem!!" << endl;
     ifstream file;
     file.open("CheckConfirm");
     if (file)
     {
         system("cls");
-        cout << "Nhập tên nhân vật của bạn [Ten_Ho]: ";
+        cout << "Nhập tên nhân vật của mày [Ten_Ho]: ";
         cin >> username;
         editValue("Software\\SAMP", username, "PlayerName");
         editValue("Software\\SAMP", GameLoc + GTAExe, "gta_sa_exe");
@@ -136,7 +136,7 @@ int MigrateLauncher()
     string path;
 
     system("cls");
-    cout << " Nhập đường dẫn thư mục chứa game [ VD: D:\\Dulieu\\Game\\GTA Online ]: ";
+    cout << " Nhập đường dẫn thư mục chứa game xịn [ VD: D:\\Dulieu\\Game\\GTA Online ]: ";
     cin.ignore();
     getline(cin, path);
     editValue("Software\\SAMP", path + gtaexe, "gta_sa_exe");
