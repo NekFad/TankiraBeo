@@ -31,4 +31,4 @@ Aurora Launcher yêu cầu PC của bạn phải được cài bộ Visual C++ t
 
 ## License | Giấy phép
 * Aurora Launcher được phân phối theo giấy phép **MUỐN LÀM GÌ LÀM 😎**
-  * ✅ Cho phép tạo bản sao, sửa đổi phần mềm và phân phối.
+  * ✅ Cho phép tạo bản sao, sửa đổi phần mềm và phân phối. Nói thẳng ra là **MUỐN LÀM GÌ LÀM 😎**
