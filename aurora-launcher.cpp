@@ -3,10 +3,8 @@
 #include <Windows.h>
 #include <Lmcons.h>
 #include <fstream>
-#include <WinReg.h>
 #pragma comment(lib, "urlmon.lib")
 #pragma execution_character_set( "utf-8" ) // Enable Unicode
-#define MAX_LOCATION_LEN 250 // Max Character of Game Location Variable
 using namespace std;
 
 int PlayGame();
@@ -23,7 +21,7 @@ void editValue(string path1, string valueReg, string valueName) {
     {
         if (RegSetValueExA(hKey, lpValueName, 0, REG_SZ, (BYTE*)lpData, dwDataSize) == ERROR_SUCCESS)
         {
-            printf("SetValue Thành công!\n", lpData);
+            cout << "SetValue Thành công!\n";
         }
         else
         {
