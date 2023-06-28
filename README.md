@@ -18,7 +18,7 @@
 ### Cài đặt
 1. Tải bản Aurora Launcher mới nhất
    ```sh
-   https://github.com/Tankira/P-AuroraLauncher/releases/download/v1-beta/launcher.exe
+   https://github.com/Tankira/P-AuroraLauncher/releases/download/v1-beta/aurora-launcher.exe
    ```
 2. Chạy Launcher, nhập tên nhân vật và chơi thôi.
 ## Requirements | Yêu cầu
